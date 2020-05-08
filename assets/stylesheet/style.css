@@ -173,6 +173,10 @@ tbody tr:nth-child(odd) {
   body {
     font-size: 12px;
   }
+
+  input, select {
+    font-size: 12px;
+  }
 }
 @media all and (max-width: 545px) {
   h1 {
@@ -181,6 +185,10 @@ tbody tr:nth-child(odd) {
 
   body {
     font-size: 10px;
+  }
+
+  .income-expense-container {
+    height: 60vh;
   }
 
   .income-expense-wrapper {
