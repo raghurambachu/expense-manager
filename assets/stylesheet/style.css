@@ -163,4 +163,42 @@ tbody tr:nth-child(odd) {
   background: #f5f5f5;
 }
 
+@media all and (max-width: 1050px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 545px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  body {
+    font-size: 10px;
+  }
+
+  .income-expense-wrapper {
+    flex-direction: column;
+  }
+
+  input, select {
+    font-size: 10px;
+  }
+}
+@media all and (max-width: 450px) {
+  body {
+    font-size: 7px;
+  }
+
+  input, select {
+    font-size: 8px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
